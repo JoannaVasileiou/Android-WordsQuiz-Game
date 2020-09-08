@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.wordsquiz.MenuActivity"
+    android:orientation="vertical"
+    android:background="@drawable/menu">
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="247dp"
+        android:layout_height="68dp"
+        android:background="@drawable/buttons"
+        android:shadowColor="#212121"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12"
+        android:text="PLAY"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+
+        android:id="@+id/settings_btn"
+        android:layout_width="247dp"
+        android:layout_height="68dp"
+        android:background="@drawable/buttons"
+        android:shadowColor="#212121"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12"
+        android:text="SETTINGS"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+
+        android:id="@+id/about_btn"
+        android:layout_width="247dp"
+        android:layout_height="68dp"
+        android:background="@drawable/buttons"
+        android:shadowColor="#212121"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12"
+        android:text="ABOUT"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        />
+</LinearLayout>
